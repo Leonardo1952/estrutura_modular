@@ -8,7 +8,7 @@ import 'package:flutter_modular/flutter_modular.dart';
 class AppModule extends MainModule {
   @override
   // Este é para a injeção de dependencia
-  List<Bind> get binds => [Bind((i) => AppControler())];
+  List<Bind> get binds => [Bind((i) => AppController())];
 
   @override
   // Primeira aplicação a ser iniciada
